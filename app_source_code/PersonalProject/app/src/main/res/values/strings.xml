@@ -1,0 +1,55 @@
+<resources>
+    <string name="sign_up_button">SIGN Up</string>
+    <string name="sign_in_button">SIGN IN</string>
+    <string name="logo_description">App Logo</string>
+    <string name="welcome_message">WELCOME!</string>
+    <string name="action_home">Home Page</string>
+    <string name="action_profile">Your Profile</string>
+    <string name="action_help">Help</string>
+    <string name="action_about_us">About Us</string>
+    <string name="action_map">Maps</string>
+    <string name="donate_button">DONATE BLOOD</string>
+    <string name="request_button">REQUEST BLOOD</string>
+    <string name="image_description">App Image</string>
+    <string name="email_phone_edit_text">Email or Phone Number</string>
+    <string name="password_edit_text">Password</string>
+    <string name="name_edit_text">Name</string>
+    <string name="email_edit_text">Email</string>
+    <string name="phone_edit_text">Phone Number</string>
+    <string name="confirm_button">CONFIRM</string>
+    <string name="about_us">Pulse Share is a mobile application where blood donors can sign up and input their blood
+        type, availability, and location (with additional information). Patients or their families request specific donations
+        and are matched with donors. This app will decrease the pressure on blood banks and hospitals, while also centralizing
+        platform for blood donations currently scattered around different social media platforms.
+    </string>
+    <string name="donate_instructions">DONATE BLOOD INSTRUCTIONS:</string>
+    <string name="first_donate_instruction">-Go to home page</string>
+    <string name="second_donate_instruction">-Click on "DONATE BLOOD" button</string>
+    <string name="third_donate_instruction">-Fill donation form</string>
+    <string name="fourth_donate_instruction">-Confirm donation form</string>
+    <string name="fifth_donate_instruction">-Choose a blood request</string>
+    <string name="request_instructions">REQUEST BLOOD INSTRUCTIONS:</string>
+    <string name="first_request_instruction">-Go to home page</string>
+    <string name="second_request_instruction">-Click on "REQUEST BLOOD" button</string>
+    <string name="third_request_instruction">-Fill request form</string>
+    <string name="fourth_request_instruction">-Confirm request form</string>
+    <string name="profile_button">CHANGE PASSWORD</string>
+    <string name="blood_type_request">Blood Type</string>
+    <string name="location_request">Medical Center/Hospital Name</string>
+    <string name="phone_request">Phone Number</string>
+    <string name="name_request">Patient Name</string>
+    <string name="alternative_name_request">Alternative Contact Person Name</string>
+    <string name="alternative_contact_phone_request">Alternative Phone Number</string>
+    <string name="name_donate">Donor Name</string>
+    <string name="phone_donate">Phone Number</string>
+    <string name="age_donate">Age</string>
+    <string name="blood_type_donate">Blood Type</string>
+    <string name="take_request_button">TAKE REQUEST</string>
+    <string name="health_issues_donate">Health Issues (Yes/No)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Strings used for fragments for navigation -->
+
+</resources>

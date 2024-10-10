@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DonateFragment">
+
+    <ImageView
+        android:id="@+id/image_view_donate"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image_description"
+        android:src="@drawable/home">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/name_edit_text_donate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_view_donate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="monospace"
+        android:hint="@string/name_donate"
+        android:textColor="@color/red"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/phone_edit_text_donate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_edit_text_donate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="monospace"
+        android:hint="@string/phone_donate"
+        android:textColor="@color/red"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/age_edit_text_donate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_edit_text_donate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="monospace"
+        android:hint="@string/age_donate"
+        android:textColor="@color/red"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/blood_type_text_donate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/age_edit_text_donate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="monospace"
+        android:hint="@string/blood_type_donate"
+        android:textColor="@color/red"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/health_issues_edit_text_donate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blood_type_text_donate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="monospace"
+        android:hint="@string/health_issues_donate"
+        android:textColor="@color/red"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/donate_confirm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/health_issues_edit_text_donate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@color/red"
+        android:text="@string/confirm_button"
+        android:textColor="@color/white"
+        android:textStyle="bold">
+
+    </Button>
+
+</RelativeLayout>
